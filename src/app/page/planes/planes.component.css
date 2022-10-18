@@ -1,0 +1,41 @@
+.Centrado {
+    text-align: center;
+    padding-top: 120px;
+}
+    
+.Centrado-texto {
+    text-align: center;  
+}
+
+.card-planes-estilo {
+    background-color:rgb(221, 253, 237);
+    border-style: groove;
+    border-color: black;
+    border-radius:0.5cm;
+    text-align: center;
+}
+
+.subtitulo1 {
+    color:black;
+    text-align: center;
+    font-family:'confortaa';
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family:'confortaa';
+    font-size: 16px;
+}
+
+.footer1 {
+    color:black;
+    text-align: center;
+    font-family:'confortaa';
+    font-size: 26px;
+    padding-top: 25px;
+}

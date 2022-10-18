@@ -1,0 +1,47 @@
+.cuadro-caracteristica{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.card-caracteristicas-estilo{
+    background: linear-gradient(179.13deg, rgba(221, 253, 237) 41.01%, rgba(10, 209, 137, 1) 88.05%);
+    border-style: groove;
+    border-color: black;
+    border-radius:1cm;
+}
+
+.Centrado {
+    text-align: center;
+    padding-top: 120px;
+    
+}
+    
+.Centrado-texto {
+    text-align: center;  
+}
+
+.boton-planes{
+    text-align: center; 
+    padding-top: 25px;
+    zoom: 120%;
+}
+
+.subtitulo1 {
+    color:black;
+    text-align: center;
+    font-family:'confortaa';
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+.footer1 {
+    color:black;
+    text-align: center;
+    font-family:'confortaa';
+    font-size: 26px;
+    padding-top: 25px;
+}

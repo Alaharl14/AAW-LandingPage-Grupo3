@@ -1,0 +1,18 @@
+<mat-toolbar id="navegador" class="menu-toolbar">
+    <div>
+      <span style="color:rgb(255, 255, 255)" ></span>
+      <a mat-button [routerLink]="['/','inicio']" style="margin-left:auto;">
+        <img src="./assets/Fi-Things-v1.png" alt="Logo de la empresa" width="40px"  style="padding-top: 10px;">
+      </a>
+    </div>
+    <a mat-raised-button [routerLink]="['/','planes']" style="margin-left:auto;">Planes</a>
+    <a mat-raised-button [routerLink]="['/','contactanos']" style="margin-left:5px;">Contactanos</a>
+    <a mat-raised-button [routerLink]="['/','login']" style="margin-left:5px;">Ingresar</a>
+    <a mat-raised-button [routerLink]="['/','register']" style="margin-left: 5px;">Registrarse</a>
+  </mat-toolbar>
+  <router-outlet></router-outlet>
+<div [hidden]="route.children.length!==0">
+    <app-inicio></app-inicio>
+</div>
+
+  

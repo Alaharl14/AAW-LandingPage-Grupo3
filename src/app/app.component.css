@@ -1,0 +1,85 @@
+.menu-toolbar {
+    background-color:rgb(10, 194, 149,1);
+    padding:15px;
+}
+
+.cuadro-caracteristica{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    font-size: 24px;
+    
+}
+
+.card-caracteristicas-estilo{
+    background: linear-gradient(179.13deg, rgba(221, 253, 237) 41.01%, rgba(10, 209, 137, 1) 88.05%);
+    border-style: groove;
+    border-color: black;
+    border-radius:1cm;
+}
+
+.card-planes-estilo {
+    background-color:rgb(221, 253, 237);
+    border-style: groove;
+    border-color: black;
+    border-radius:0.5cm;
+    text-align: center;
+}
+
+.background-pagina {
+    background-image: import("./assets/fondo-pagina-web.png");
+}
+
+.Centrado {
+text-align: center;
+padding-top: 120px;
+
+}
+
+.Centrado-texto {
+    text-align: center;  
+}
+
+.subtitulo1 {
+    color:black;
+    text-align: center;
+    font-family:'confortaa';
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+.footer1 {
+    color:black;
+    text-align: center;
+    font-family:'confortaa';
+    font-size: 26px;
+    padding-top: 25px;
+}
+
+.boton-planes{
+    text-align: center; 
+    padding-top: 25px;
+    zoom: 120%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family:'confortaa';
+    font-size: 16px;
+}
+
+.fondo-principal{
+    text-align: center;
+    background-image:url(https://i.pinimg.com/originals/ea/88/fa/ea88fa9834615ee5e935167153695d08.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: auto;
+    height: auto;   
+    
+}

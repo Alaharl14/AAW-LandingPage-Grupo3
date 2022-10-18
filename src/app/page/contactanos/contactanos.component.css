@@ -1,0 +1,25 @@
+.Centrado {
+    text-align: center;
+    padding-top: 120px;
+    
+}
+    
+.Centrado-texto {
+        text-align: center;  
+}
+    
+.subtitulo1 {
+        color:black;
+        text-align: center;
+        font-family:'confortaa';
+        font-size: 36px;
+        padding-top: 25px;
+}
+    
+.footer1 {
+        color:black;
+        text-align: center;
+        font-family:'confortaa';
+        font-size: 26px;
+        padding-top: 25px;
+}
